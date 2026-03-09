@@ -36,10 +36,10 @@ const AboutSection = () => {
               Advancing Surgical Visualization Through Innovation
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              At Belion Technology, we specialize in developing advanced medical imaging 
-              and endoscopic visualization solutions that support precision in minimally invasive 
-              surgery. We combine optical innovation, robust engineering, and strict quality control 
-              to deliver products that provide high clarity, accurate color reproduction, and 
+              At Belion Technology, we specialize in developing advanced medical imaging
+              and endoscopic visualization solutions that support precision in minimally invasive
+              surgery. We combine optical innovation, robust engineering, and strict quality control
+              to deliver products that provide high clarity, accurate color reproduction, and
               consistent performance in demanding clinical environments.
             </p>
 

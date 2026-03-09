@@ -5,12 +5,11 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center mb-4">
-              <img
-                src="/logo.pdf"
-                alt="BELION TECHNOLOGY"
-                className="h-9 w-auto object-contain brightness-0 invert opacity-80"
-              />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-9 h-9 rounded-lg gradient-teal flex items-center justify-center">
+                <span className="text-primary-foreground font-display font-bold">B</span>
+              </div>
+              <span className="font-display font-bold text-lg">BELION</span>
             </div>
             <p className="text-secondary-foreground/50 text-sm leading-relaxed max-w-xs">
               Advanced medical imaging and endoscopic visualization solutions for minimally invasive surgery.

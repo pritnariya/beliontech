@@ -28,8 +28,8 @@ const QualitySection = () => {
               Trusted Quality, Global Standards
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Every Belion product undergoes rigorous quality control and testing. Our manufacturing 
-              processes meet international medical standards, ensuring safety, reliability, and 
+              Every Belion product undergoes rigorous quality control and testing. Our manufacturing
+              processes meet international medical standards, ensuring safety, reliability, and
               consistent performance across all clinical applications.
             </p>
 

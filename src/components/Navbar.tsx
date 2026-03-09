@@ -24,20 +24,16 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-          ? "bg-card/95 backdrop-blur-lg shadow-medical border-b border-border"
-          : "bg-transparent"
+        ? "bg-card/95 backdrop-blur-lg shadow-medical border-b border-border"
+        : "bg-transparent"
         }`}
     >
-      <div className="container mx-auto px-6 flex items-center justify-between h-20">
+      <div className="container mx-auto px-6 flex items-center justify-between h-24">
         <a href="#home" className="flex items-center">
           <img
-            src="/logo.pdf"
-            alt="BELION TECHNOLOGY"
-            className="h-10 w-auto object-contain"
-            onError={(e) => {
-              // Fallback in case PDF rendering in img is restricted by browser
-              console.warn("PDF logo failed to load in <img> tag.");
-            }}
+            src="/logo-removebg-preview.png"
+            alt="Belion Technology"
+            className="h-[100px] w-auto object-contain scale-[2.0] origin-left"
           />
         </a>
 

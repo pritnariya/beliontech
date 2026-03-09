@@ -41,8 +41,8 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.6 }}
             className="text-lg sm:text-xl text-primary-foreground/70 font-body leading-relaxed mb-10 max-w-2xl"
           >
-            Belion Technology designs and manufactures high-quality HD, 4K, and ICG 
-            endoscopic visualization solutions — empowering surgeons with clarity, 
+            Belion Technology designs and manufactures high-quality HD, 4K, and ICG
+            endoscopic visualization solutions — empowering surgeons with clarity,
             confidence, and clinical precision.
           </motion.p>
 
