@@ -29,7 +29,7 @@ const Navbar = () => {
         }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between h-24">
-        <a href="#home" className="flex items-center">
+        <a href="#home" className="flex items-center" style={{ marginLeft: '-20px' }}>
           <img
             src="/logo-removebg-preview.png"
             alt="Belion Technology"
