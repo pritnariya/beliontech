@@ -73,9 +73,9 @@ const ContactSection = () => {
               <h3 className="font-display font-semibold text-foreground text-lg mb-6">Contact Information</h3>
               <div className="space-y-5">
                 {[
-                  { icon: Mail, label: "Email", value: "info@beliontech.com" },
-                  { icon: Phone, label: "Phone", value: "+86 (0) 755-1234-5678" },
-                  { icon: MapPin, label: "Address", value: "Shenzhen, Guangdong, China" },
+                  { icon: Mail, label: "Email", value: "beliontechnology@gmail.com" },
+                  { icon: Phone, label: "Phone", value: "+91 92745 54309" },
+                  { icon: MapPin, label: "Address", value: <>3rd floor, office no.338-339, Dr India Txtile Hub<br />Parvat Patiya, Surat -395010</> },
                 ].map(({ icon: Icon, label, value }) => (
                   <div key={label} className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center shrink-0">
